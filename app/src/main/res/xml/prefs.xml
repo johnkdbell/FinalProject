@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:gravity="center_horizontal">
+
+  <CheckBoxPreference
+    android:id="@+id/checkbox_dark"
+    android:color="@color/kindaokay"
+    android:key="checkbox_dark"
+    android:title="@string/title_checkbox_preference"
+    android:summary="@string/summary_checkbox_preference"/>
+
+
+</androidx.preference.PreferenceScreen>

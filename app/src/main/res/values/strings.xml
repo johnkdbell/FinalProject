@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">FinalProject</string>
+
+  <string name="title_checkbox_preference">Dark Theme</string>
+  <string name="summary_checkbox_preference">Enable dark theme</string>
+  <string name="title_switch_preference">Enable large font</string>
+  <string name="summary_switch_preference">Use large font</string>
+  <string name="title_dropdown_preference">Choose your avatar</string>
+  <string name="user_name">User name</string>
+  <string name="summary_edittext_preference">Enter your name</string>
+</resources>

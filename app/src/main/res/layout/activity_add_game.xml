@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  android:id="@+id/layout"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >
+
+  <include
+    layout="@layout/action_bar"
+    android:elevation="4dp" />
+
+  <EditText
+    android:id="@+id/etTitle"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20sp"
+    android:layout_marginRight="40sp"
+    android:layout_marginLeft="40sp"
+    android:hint="Title" />
+
+  <EditText
+    android:id="@+id/etPlatform"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="40sp"
+    android:layout_marginLeft="40sp"
+    android:hint="Platform" />
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="20sp"
+    android:layout_marginRight="40sp"
+    android:layout_marginLeft="40sp">
+
+    <ImageView
+      android:id="@+id/ivBoxart"
+      android:layout_width="254dp"
+      android:layout_height="216dp"
+      android:layout_gravity="center_horizontal"
+      android:src="@mipmap/ic_launcher" />
+
+    <Button
+      android:id="@+id/btnImage"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginRight="40sp"
+      android:layout_marginLeft="40sp"
+      android:text="Add Game Image" />
+
+  </LinearLayout>
+
+  <TextView
+    android:id="@+id/tvLink"
+    android:layout_width="1sp"
+    android:layout_height="1sp"
+    android:text="URL" />
+
+  <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top">
+
+    <ListView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:drawSelectorOnTop="false" />
+
+    <RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:gravity="bottom">
+
+      <Button
+        android:id="@+id/addBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Add Game" />
+
+    </RelativeLayout>
+
+  </RelativeLayout>
+
+</LinearLayout>

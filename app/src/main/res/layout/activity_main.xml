@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:gravity="top">
+
+  <include
+    layout="@layout/action_bar"
+    android:elevation="4dp" />
+
+  <RelativeLayout
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top">
+
+    <ListView
+      android:id="@+id/lvItems"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:drawSelectorOnTop="false"
+      android:paddingBottom="40dp"
+      android:clipToPadding="false"
+      android:divider="@android:color/transparent"/>
+
+    <RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:gravity="bottom">
+
+      <Button
+        android:id="@+id/btnGameActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Add New Game" />
+
+    </RelativeLayout>
+
+  </RelativeLayout>
+
+</LinearLayout>
+
